@@ -22,7 +22,7 @@ nav>ul{
     text-decoration: none;
     font-size: 12px;
     color: grey;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 .logo-header{
@@ -31,7 +31,7 @@ nav>ul{
 }
 .logo-header>h2{
     /* per non fare andare a capo il logo */
-    min-width: 200px;
+    min-width: 150px;
 }
 h2>i{
     color: #0161fe;
@@ -53,13 +53,13 @@ main{
 }
 .container-jambotron{
     width: 80%;
-    height: 100%;
     margin: 0 auto;
-    padding: 50px;
+    padding-top: 50px;
 }
 h1{
-    font-size: 50px;
+    font-size: 55px;
     margin-bottom: 40px;
+    font-weight: 900;
 }
 .testo-img{
     display: flex;
@@ -67,9 +67,9 @@ h1{
     align-items: flex-start;
 }
 .testo-img>img{
-float: right;
 width: 70%;
-height: 100%;
+height: 450px;
+
 }
 .testo-img p{
     width: 30%;
