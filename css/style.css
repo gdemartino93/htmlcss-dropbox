@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    background: white;
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+}
+.logo-header>a{
+    text-decoration: none;
+    font-size: 12px;
+    color: grey;
+    padding: 20px;
+    text-align: center;
+}
+.logo-header{
+    display: flex;
+    align-items: center;
+}
+.logo-header>h2{
+    /* per non fare andare a capo il logo */
+    min-width: 200px;
+}
+h2>i{
+    color: #0161fe;
+}
+.header-dx>a{
+    text-decoration: none;
+    font-size: 12px;
+    color: grey;
+    text-align: center;
+    padding: 20px;
+}
+main{
+    margin-top: 60px;
+}
