@@ -87,19 +87,13 @@ h1{
     height: 100%;
     padding-top: 100px;
     margin: 100px auto;
-    /* debug */
-    background-color: red;
 }
 .container-tariffe{
     width: 80%;
     margin: 0 auto;
-    /* debug */
-    background-color: yellow;
-    min-height: 300px;
 }
 .container-tariffe>h2{
-    text-align: center;
-}
+margin-left: 20px;}
 
 /* tasti */
 .btn {
@@ -111,13 +105,15 @@ h1{
     margin: 20px 0;
 }
 .blue{
-    background-color: blue;
+    background-color: #0161fe;
     color: white;
 }
 /* personalizzazione radiobutton */
 .radiocustom>label{ 
     font-size: 15px;
     margin-right: 50px;
+    position: relative;
+    z-index: 1;
 }
 .radiocustom{
     margin: 40px auto;
@@ -129,16 +125,15 @@ h1{
 .singolo{
     width: calc(100% / 3 );
     height: 100%;
-    margin: 10px;
+    margin: 20px;
     /* deb */
-    background-color: yellowgreen;
-    border: 1px solid grey;
+    border: 1px solid gainsboro;
 }
 .header-tab{
     width: 100%;
     text-align: center;
     padding: 5px;
-    border-bottom:1px solid grey;
+    border-bottom:2px solid gainsboro;
 }
 .main-tab{
     display: flex;
@@ -154,6 +149,7 @@ h1{
     display: flex;
     flex-direction: column;
     padding: 20px 10px;
+    font-size: 15px;
 }
 .secondasezione i{
     margin-right: 10px;
@@ -186,5 +182,8 @@ ul li{
 ul li:before {
     content: '✓';
     margin-right: 10px;
+    color: blue;
+    font-weight: bold;
 
   }
+
