@@ -111,17 +111,6 @@ margin: 0 auto;
     background-color: #0161fe;
     color: white;
 }
-/* personalizzazione radiobutton */
-.radiocustom>label{ 
-    font-size: 15px;
-    margin-right: 50px;
-    position: relative;
-    z-index: 1;
-}
-.radiocustom{
-    margin: 40px auto;
-}
-/* fine radio button */
 .tabella{
     width: 80%;
     display: flex;
@@ -133,7 +122,6 @@ margin: 0 auto;
     height: 100%;
     margin: 0 auto;
     margin-top: 20px;
-    /* deb */
     border: 1px solid gainsboro;
 }
 .header-tab{
@@ -157,6 +145,8 @@ margin: 0 auto;
     flex-direction: column;
     padding: 20px 10px;
     font-size: 15px;
+    height: 200px;
+
 }
 .secondasezione i{
     margin-right: 10px;
@@ -184,13 +174,121 @@ margin: 0 auto;
 }
 ul li{
     list-style: none;
-    margin-top: 10px;
+    margin-top: 10px;    
+    /* non fare andare il testo sotto il bullet del li */
+    list-style-position: inside;
+    padding: 10px 0 10px 0px;
+    text-indent: -1em;
 }
+
 ul li:before {
     content: '✓';
     margin-right: 10px;
     color: blue;
     font-weight: bold;
-
   }
 
+/* RADIO BUTTON  */
+.button {
+    cursor: pointer;
+    display: inline-block;
+    font: 15px Arial, Verdana, Geneva, sans-serif;
+    line-height: 41px;
+    padding-right: 40px;
+}
+
+.button:hover .inner {
+    opacity: .5;
+}
+
+.button input {
+    display: none;
+}
+
+.button input:checked + .outer .inner {
+    opacity: 1;
+}
+
+.button .outer {
+    background: #2989d8;
+    background: -moz-radial-gradient(center, ellipse cover, #2989d8 0%, #101354 99%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #2989d8), color-stop(99%, #101354));
+    background: -webkit-radial-gradient(center, ellipse cover, #2989d8 0%, #101354 99%);
+    background: -o-radial-gradient(center, ellipse cover, #2989d8 0%, #101354 99%);
+    background: -ms-radial-gradient(center, ellipse cover, #2989d8 0%, #101354 99%);
+    background: radial-gradient(center, ellipse cover, #2989d8 0%, #101354 99%);
+    border: 1px solid black;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    display: block;
+    float: left;
+    height: 20px;
+    margin: 10px;
+    width: 20px;
+}
+
+.button .inner {
+    background: #e4f5fc;
+    background: -moz-radial-gradient(center, ellipse cover, #e4f5fc 0%, #bfe8f9 50%, #9fd8ef 51%, #2ab0ed 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #e4f5fc), color-stop(50%, #bfe8f9), color-stop(51%, #9fd8ef), color-stop(100%, #2ab0ed));
+    background: -webkit-radial-gradient(center, ellipse cover, #e4f5fc 0%, #bfe8f9 50%, #9fd8ef 51%, #2ab0ed 100%);
+    background: -o-radial-gradient(center, ellipse cover, #e4f5fc 0%, #bfe8f9 50%, #9fd8ef 51%, #2ab0ed 100%);
+    background: -ms-radial-gradient(center, ellipse cover, #e4f5fc 0%, #bfe8f9 50%, #9fd8ef 51%, #2ab0ed 100%);
+    background: radial-gradient(center, ellipse cover, #e4f5fc 0%, #bfe8f9 50%, #9fd8ef 51%, #2ab0ed 100%);
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    display: block;
+    height: 14px;
+    margin: 3px;
+    opacity: 0;
+    -moz-transition: opacity .5s;
+    -webkit-transition: opacity .5s;
+    -o-transition: opacity .5s;
+    transition: opacity .5s;
+    width: 14px;
+}
+/* RADIO BUTTON */
+
+.contact-main{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid gainsboro;
+    margin-top: 50px;
+}
+.contact-content{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.partner{
+    width: 80%;
+    margin: 100px auto;
+    /* debug */
+    height: 600px;
+    background: #9fd8ef;
+    display: flex;
+}
+.partner-foto{
+    width: 55%;
+  
+}
+.partner-txt{
+    width: 45%;
+    background:green;
+    padding: 50px;
+ 
+     /* deb */
+    height: 600px;
+}
+.partner-txt-container{
+    width: 80%;
+    /* height: 200px; */
+    background: bisque;
+    margin: 0 auto;
+}
+.partner-foto img{
+    width: 100%;
+}
