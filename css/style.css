@@ -61,6 +61,11 @@ h1{
     font-size: 50px;
     margin-bottom: 40px;
 }
+.testo-img{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
 .testo-img>img{
 float: right;
 width: 70%;
@@ -68,20 +73,28 @@ height: 100%;
 }
 .testo-img p{
     width: 30%;
-    display: inline-block;
+    display:inline-block;
+    display: flex;
+    flex-direction: column;
 }
-
-
+.testo-img a{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    margin-top: 30px;
+}
 /* tasti */
 .btn {
 	cursor:pointer;
 	font-family:Arial;
-	font-size:17px;
-	padding:10px 20px;
+	font-size:15px;
+	padding:10px 10px;
 	text-decoration:none;
-    margin: 40px auto;
+    margin: 20px 0;
 }
 .blue{
     background-color: blue;
     color: white;
+    width: 200px;
+
 }
