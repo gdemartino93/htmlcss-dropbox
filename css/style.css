@@ -111,6 +111,10 @@ margin: 0 auto;
     background-color: #0161fe;
     color: white;
 }
+.white{
+    background-color: white;
+    border: 1px solid black;
+}
 .tabella{
     width: 80%;
     display: flex;
@@ -266,27 +270,18 @@ ul li:before {
 .partner{
     width: 80%;
     margin: 100px auto;
-    /* debug */
-    height: 600px;
-    background: #9fd8ef;
     display: flex;
 }
 .partner-foto{
-    width: 55%;
-  
+    width: 55%;  
 }
 .partner-txt{
     width: 45%;
-    background:green;
     padding: 50px;
- 
-     /* deb */
-    height: 600px;
 }
 .partner-txt-container{
     width: 80%;
-    /* height: 200px; */
-    background: bisque;
+   
     margin: 0 auto;
 }
 .partner-foto img{
