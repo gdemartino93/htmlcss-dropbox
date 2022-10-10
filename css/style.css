@@ -67,9 +67,8 @@ h1{
     align-items: flex-start;
 }
 .testo-img>img{
-width: 70%;
-height: 450px;
-
+    width: 70%;
+    height: 450px;
 }
 .testo-img p{
     width: 30%;
@@ -83,18 +82,109 @@ height: 450px;
     font-size: 40px;
     margin-top: 30px;
 }
+.sez-tariffe{
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    margin: 100px auto;
+    /* debug */
+    background-color: red;
+}
+.container-tariffe{
+    width: 80%;
+    margin: 0 auto;
+    /* debug */
+    background-color: yellow;
+    min-height: 300px;
+}
+.container-tariffe>h2{
+    text-align: center;
+}
+
 /* tasti */
 .btn {
 	cursor:pointer;
 	font-family:Arial;
 	font-size:15px;
-	padding:10px 10px;
+	padding:5px 6px;
 	text-decoration:none;
     margin: 20px 0;
 }
 .blue{
     background-color: blue;
     color: white;
-    width: 200px;
-
 }
+/* personalizzazione radiobutton */
+.radiocustom>label{ 
+    font-size: 15px;
+    margin-right: 50px;
+}
+.radiocustom{
+    margin: 40px auto;
+}
+/* fine radio button */
+.tabella{
+    display: flex;
+}
+.singolo{
+    width: calc(100% / 3 );
+    height: 100%;
+    margin: 10px;
+    /* deb */
+    background-color: yellowgreen;
+    border: 1px solid grey;
+}
+.header-tab{
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    border-bottom:1px solid grey;
+}
+.main-tab{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.primasezione{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+}
+.secondasezione{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+}
+.secondasezione i{
+    margin-right: 10px;
+}
+
+.icotxt{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+.terzasezione{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.quartasezione{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quartasezione ul{
+    padding-left: 20px;
+}
+ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+ul li:before {
+    content: '✓';
+    margin-right: 10px;
+
+  }
