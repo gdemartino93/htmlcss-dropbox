@@ -46,3 +46,42 @@ h2>i{
 main{
     margin-top: 60px;
 }
+.jambotron{
+    width: 100%;
+    height: 600px;
+    background: #B8CEE4;
+}
+.container-jambotron{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 50px;
+}
+h1{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.testo-img>img{
+float: right;
+width: 70%;
+height: 100%;
+}
+.testo-img p{
+    width: 30%;
+    display: inline-block;
+}
+
+
+/* tasti */
+.btn {
+	cursor:pointer;
+	font-family:Arial;
+	font-size:17px;
+	padding:10px 20px;
+	text-decoration:none;
+    margin: 40px auto;
+}
+.blue{
+    background-color: blue;
+    color: white;
+}
