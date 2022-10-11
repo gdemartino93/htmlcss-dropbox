@@ -93,9 +93,7 @@ h1{
     margin: 0 auto;
 }
 .container-tariffe>h2{
-margin-left: 20px;
-width: 80%;
-margin: 0 auto;
+margin: 40px auto;
 }
 
 /* tasti */
@@ -273,11 +271,6 @@ ul li:before {
 }
 /* RADIO BUTTON */
 
-.radio-custom{
-    text-align: left;
-    margin:60px 20px 20px 10%;
-}
-
 .contact-main{
     width: 80%;
     margin: 0 auto;
@@ -325,16 +318,14 @@ ul li:before {
 }
 .features{
     width: 80%;
-    margin: 30px auto;
-/* deb */
+    margin: 20px auto;
     height: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 20px;
     }
 .features-card{
-    width: calc(100% / 3 - 20px);
+    width: calc(100% / 3);
 }
 .features-card-photo{
     height: 50%;
@@ -356,7 +347,7 @@ ul li:before {
 }
 .clienti-container{
     width: 80%;
-    margin: 0 auto;
+    margin: 80px auto;
     /* text-align: center; */
     display: flex;
     flex-direction: column;
@@ -367,8 +358,33 @@ ul li:before {
     margin-top: 50px;
 }
 .banner{
-    width: 100vw;
+    width: 100%;
     /* debug */
-    height: 500px;
+    height: 800px;
     background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+}
+.sezione-banner-sx{
+width: 30%;
+display: flex;
+flex-wrap: wrap;
+/* de */
+height: 100%;
+background: pink;
+border: 1px solid black;
+}
+.sezione-banner-dx{
+width: 30%;
+/* de */
+background-color: pink;
+border: 1px solid black;
+}
+.card-banner{
+    width: calc(100% / 2);
+    min-height: calc(100% / 2);
+    /* deb */
+    height: 100px;
+    background: greenyellow;
+    border: 1px solid black;
 }
