@@ -203,9 +203,12 @@ ul li{
 
 ul li:before {
     content: '✓';
-    margin-right: 10px;
+    margin-right: 5px;
+    /* margin-left: 10px; */
     color: blue;
     font-weight: bold;
+    
+
   }
 
 /* RADIO BUTTON  */
@@ -290,6 +293,9 @@ ul li:before {
 .contact-content-txt{
     padding: 20px;
 }
+.contact-content-txt p{
+    margin-top: 20px;
+}
 .partner-txt-container>p{
     padding: 0;
     margin: 10px auto;
@@ -357,34 +363,105 @@ ul li:before {
     color: blue;
     margin-top: 50px;
 }
+/* sezione banner */
+
 .banner{
     width: 100%;
-    /* debug */
-    height: 800px;
-    background-color: yellow;
     display: flex;
-    justify-content: space-between;
+  
 }
 .sezione-banner-sx{
 width: 30%;
 display: flex;
+align-content: flex-start;
 flex-wrap: wrap;
 /* de */
-height: 100%;
-background: pink;
-border: 1px solid black;
+height: 400px;
+
 }
 .sezione-banner-dx{
 width: 30%;
-/* de */
-background-color: pink;
-border: 1px solid black;
+height: 400px;
+}
+.sezione-banner-centrale{
+    width: 40%;
+    height: 400px;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+.header-sezione-banner-centrale{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px;
+    margin-top: 20px;
+}
+.header-sezione-banner-centrale>img{
+    width: 200px;
+    height: 100px;
+    border-bottom: 1px solid black;
+}
+.text-sezione-banner-centrale{
+    height: 80%;
+    width: 100%;
+    padding: 30px;
 }
 .card-banner{
     width: calc(100% / 2);
-    min-height: calc(100% / 2);
+    min-height: 200px;
     /* deb */
     height: 100px;
-    background: greenyellow;
-    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card-banner>img{
+    width: 50%;
+    height: 50%;
+    filter: invert(100%) sepia(3%) saturate(13%) hue-rotate(81deg) brightness(106%) contrast(106%);
+}
+.designit{
+    background-color:#AAD09F ;
+}
+.arizonauniversity{
+    background-color: #59192F;
+}
+.floridauniversity{
+    background-color: #428FC7;
+}
+.topps{
+    background-color: #EA3E33;
+}
+.bicycle{
+    background-color: #C22D2F;
+}
+.hearst{
+    background-color: #B8CEE4;
+}
+.lonely{
+    background-color: #1A287B;
+}
+.outdoor{
+    background-color: #F8D857;
+}
+
+.prova-gratuita{
+    width: 100%;
+    height: 200px;
+    background-color: #B8CEE4;
+}
+.prova-gratuita>h2{
+    display: inline-block;
+    margin: 60px 100px 300px 200px;
+}
+.faq{
+    margin-top: 100px;
+    width: 100%;
+    height: 400px;
+    background: #2989d8;
 }
