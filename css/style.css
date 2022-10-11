@@ -366,3 +366,9 @@ ul li:before {
     color: blue;
     margin-top: 50px;
 }
+.banner{
+    width: 100vw;
+    /* debug */
+    height: 500px;
+    background-color: yellow;
+}
