@@ -293,8 +293,16 @@ ul li:before {
 .contact-content h3{
     text-align: center;
 }
-.contact-main h5,p{
+
+.contact-content-txt{
     padding: 20px;
+}
+.partner-txt-container>p{
+    padding: 0;
+    margin: 10px auto;
+}
+.partner-txt-container{
+    margin-top: 20px;
 }
 .partner{
     width: 80%;
@@ -320,7 +328,6 @@ ul li:before {
     margin: 30px auto;
 /* deb */
     height: 100%;
-    background: #2ab0ed;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -328,9 +335,34 @@ ul li:before {
     }
 .features-card{
     width: calc(100% / 3 - 20px);
-    /* deb */
-    height: 400px;
-    background: pink;
-    border: 1px solid black;
-    /* margin: 10px; */
+}
+.features-card-photo{
+    height: 50%;
+    width: 100%;
+}
+.features-card-title{
+    width: 100%;
+    align-self: center;
+    font-weight: bold
+}
+.features-card-text{
+    margin: 20px 0;
+    height: 30%;
+    overflow: hidden;
+}
+.features-card img{
+    height: 100%;
+    width: 100%;
+}
+.clienti-container{
+    width: 80%;
+    margin: 0 auto;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.clienti-container a{
+    color: blue;
+    margin-top: 50px;
 }
