@@ -10,13 +10,11 @@
     justify-content: space-evenly;
     align-items: center;
     /* debug */
-    height: 600px;
 }
 .img-login{
     width: 40%;
     height: 500px;
-    /* dbug */
-    background-color: pink;
+    max-width: 900px;
     background-image: url(../img/login.png);
     background-repeat: no-repeat;
    background-size: cover;
@@ -24,6 +22,7 @@
 }
 .form-login{
     width: 40%;
+    max-width: 900px;
 }
 .form-login-header{
     width: 100%;
