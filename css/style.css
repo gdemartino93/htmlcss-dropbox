@@ -13,6 +13,7 @@ nav{
     position: fixed;
     top: 0;
     background: white;
+    border-bottom: 1px solid grey;
 }
 nav>ul{
     display: flex;
@@ -53,12 +54,10 @@ h2>i{
     color: grey;
 
   }
-  
   .dropdown {
     position: relative;
     display: inline-block;
   }
-  
   .dropdown-content {
     background:rgba(0,93,192,0.9);
     display: none;
@@ -68,14 +67,12 @@ h2>i{
     z-index: 1;
     left: 0;
   }
-  
   .dropdown-content a {
     color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
   }
-  
   .dropdown-content a:hover {
     background-color: rgba(0,93,192,0.9);
 }
@@ -88,27 +85,6 @@ h2>i{
     }
 
 /* dropdown fine */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 main{
     margin-top: 60px;
@@ -230,12 +206,10 @@ margin: 40px auto;
     padding: 20px 10px;
     font-size: 15px;
     height: 200px;
-
 }
 .secondasezione i{
     margin-right: 10px;
 }
-
 .icotxt{
     display: flex;
     justify-content: flex-start;
@@ -249,6 +223,10 @@ margin: 40px auto;
 }
 .terzasezione a{
     color: blue;
+}
+.terzasezione>span{
+    padding-bottom: 40px;
+   border-bottom: 1px solid grey;
 }
 .quartasezione{
     margin-top: 50px;
@@ -267,15 +245,11 @@ ul li{
     padding: 10px 0 10px 0px;
     text-indent: -1em;
 }
-
 ul li:before {
     content: '✓';
     margin-right: 5px;
-    /* margin-left: 10px; */
     color: blue;
     font-weight: bold;
-    
-
   }
 
 /* RADIO BUTTON  */
@@ -286,19 +260,15 @@ ul li:before {
     line-height: 41px;
     padding-right: 40px;
 }
-
 .button:hover .inner {
     opacity: .5;
 }
-
 .button input {
     display: none;
 }
-
 .button input:checked + .outer .inner {
     opacity: 1;
 }
-
 .button .outer {
     background: #2989d8;
     background: -moz-radial-gradient(center, ellipse cover, #2989d8 0%, #101354 99%);
@@ -317,7 +287,6 @@ ul li:before {
     margin: 10px;
     width: 20px;
 }
-
 .button .inner {
     background: #e4f5fc;
     background: -moz-radial-gradient(center, ellipse cover, #e4f5fc 0%, #bfe8f9 50%, #9fd8ef 51%, #2ab0ed 100%);
@@ -399,7 +368,6 @@ ul li:before {
     }
 .features-card{
     width: calc(100% / 3);
-    /* max-width: 400px; */
 }
 .features-card-photo{
     height: 50%;
@@ -431,20 +399,15 @@ ul li:before {
     margin-top: 50px;
 }
 /* sezione banner */
-
 .banner{
     width: 100%;
     display: flex;
-  
 }
 .sezione-banner-sx{
 width: 30%;
 display: flex;
 align-content: flex-start;
 flex-wrap: wrap;
-/* de */
-height: 400px;
-
 }
 .sezione-banner-dx{
 width: 30%;
@@ -484,12 +447,10 @@ height: 400px;
     height: 100px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center; 
 }
 .card-banner>img{
     width: 50%;
-    height: 50%;
     filter: invert(100%) sepia(3%) saturate(13%) hue-rotate(81deg) brightness(106%) contrast(106%);
 }
 .designit{
@@ -516,7 +477,6 @@ height: 400px;
 .outdoor{
     background-color: #F8D857;
 }
-
 .prova-gratuita{
     width: 100%;
     height: 200px;
@@ -526,7 +486,6 @@ height: 400px;
     align-items: center;
     margin-bottom: 100px;
 }
-
 .faq{
     width: 100%;
     height: 100%;
@@ -558,17 +517,20 @@ height: 400px;
 }
 .faq-row-answer{
     display: none;
-}
+    border: 1px solid grey;
+    background-color: rgba(91, 91, 80, 0.25);
+    padding: 5px 0;
+}   
 .faq-row:hover + .faq-row-answer {
     display: block;
   }
-
+.faq-row:hover{
+    background-color: rgba(252, 255, 0, 0.36);
+}
 footer{
     background: black;
     width: 100%;
     margin-top: 100px;
-    /* deb */
-    height: 600px;
 }
 .container-footer{
     width: 80%;
@@ -576,15 +538,43 @@ footer{
     display: flex;
     justify-content: space-evenly;
     gap: 40px;
-    /* debug */
+    overflow-x: hidden;
     height: 100%;
-    background-color: yellow;
+    margin-bottom: 100px;
 }
 .card-footer{
     width: calc(100% / 5);
     margin-top: 40px;
-    /* debug */
-    height: 400px;
-    border: 1px solid black;
-    background: pink;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.link-footer{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.link-footer>a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+.link-footer>h4{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+.lingua-footer{
+    width: 80%;
+    color: white;
+    margin: 0 auto;
+    min-height: 100px;
+}
+.lingua-footer>span{
+    border-top: 1px solid white;
+    padding-top: 30px;
+    color: grey;
 }
