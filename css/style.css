@@ -409,13 +409,10 @@ display: flex;
 align-content: flex-start;
 flex-wrap: wrap;
 }
-.sezione-banner-dx{
-width: 30%;
-height: 400px;
-}
+
 .sezione-banner-centrale{
     width: 40%;
-    height: 400px;
+    height: 448px;
     background-color: #F5F5F5;
     display: flex;
     flex-direction: column;
@@ -442,9 +439,7 @@ height: 400px;
 }
 .card-banner{
     width: calc(100% / 2);
-    min-height: 200px;
-    /* deb */
-    height: 100px;
+    min-height: 224.4px;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -521,7 +516,7 @@ height: 400px;
     background-color: rgba(91, 91, 80, 0.25);
     padding: 5px 0;
 }   
-.faq-row:hover + .faq-row-answer {
+.faq-row:active + .faq-row-answer {
     display: block;
   }
 .faq-row:hover{
@@ -579,5 +574,5 @@ footer{
     color: grey;
 }
 .link-footer>a:hover{
-    border-bottom: 1px solid white;
+    text-decoration: underline;
 }

@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-login{
+    width: 80%;
+    margin: 200px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* debug */
+    height: 600px;
+}
+.img-login{
+    width: 40%;
+    height: 500px;
+    /* dbug */
+    background-color: pink;
+    background-image: url(../img/login.png);
+    background-repeat: no-repeat;
+   background-size: cover;
+    
+}
+.form-login{
+    width: 50%;
+    /* deb */
+    /* line-height: 60px; */
+    /* height: 500px; */
+    background-color: yellow;
+ 
+}
+.form-login-header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-login-header a{
+    text-decoration: none;
+    color: blue;
+    margin-left: 2px;
+}
+#creaaccount{
+    font-size: 20px;
+}
+
+
+.form-login-privacy{
+    background-color:orange;
+    display: flex;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+input[type=text]{
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+input[type=password]{
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+input[type=checkbox]{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
