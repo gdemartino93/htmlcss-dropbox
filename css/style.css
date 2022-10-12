@@ -43,6 +43,7 @@ h2>i{
     text-align: center;
     padding: 20px;
 }
+
 main{
     margin-top: 60px;
 }
@@ -489,6 +490,13 @@ height: 400px;
 .faq-row:last-of-type{
     border-bottom: 1px solid grey;
 }
+.faq-row-answer{
+    display: none;
+}
+.faq-row:hover + .faq-row-answer {
+    display: block;
+  }
+
 footer{
     background: black;
     width: 100%;
