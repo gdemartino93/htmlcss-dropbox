@@ -544,7 +544,6 @@ footer{
     flex-direction: column;
     align-items: flex-start;
 }
-
 .link-footer{
     margin-top: 30px;
     display: flex;
@@ -575,4 +574,5 @@ footer{
 }
 .link-footer>a:hover{
     text-decoration: underline;
+    color: white;
 }
