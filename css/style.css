@@ -518,6 +518,12 @@ footer{
     width: 100%;
     margin-top: 100px;
 }
+.titolo-footer>h4{
+    color: white;
+}
+.titolo-footer{
+   padding-left: 10px;
+}
 .container-footer{
     display: flex;
     justify-content: space-evenly;
