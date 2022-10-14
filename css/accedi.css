@@ -84,3 +84,50 @@ input[type=checkbox]{
     height: 100%;
     border-right: 1px solid grey;
 }
+
+/* ipad */
+
+@media screen and (max-width:811px) {
+    .img-login{
+        display: none;
+    }
+    .form-login-privacy{
+        font-size: 1rem;
+    }
+    .container-login{
+        width: 100%;
+        margin: 100px auto;
+    }
+    .container-footer{
+        gap: 20px;
+        font-size: 0.8rem;
+
+    }
+}
+
+/* mobile */
+@media screen and (max-width:480px) {
+    .dropdown{
+        display: none;
+    }
+    .form-login-header{
+        font-size: .8rem;
+    }
+    #creaaccount{
+        font-size: .8rem;
+    }
+    .container-login{
+        margin: 100px auto;
+    }
+    .form-login{
+        width: 80%;
+        min-width: 200px;
+    }
+    .container-footer{
+        display: none;
+    }
+    .lingua-footer{
+        display: flex;
+        justify-content: flex-start;
+    }
+}
